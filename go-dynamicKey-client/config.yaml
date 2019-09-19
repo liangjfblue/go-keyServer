@@ -1,0 +1,12 @@
+runmode: debug            # 开发模式, debug, release, test
+name: go-dynamicKey-client
+
+log:
+  level: 5
+  reportCaller: true
+
+scurityServer:
+  Addr: 172.16.0.62:8080
+
+appServer:
+  Addr: 172.16.0.62:8081

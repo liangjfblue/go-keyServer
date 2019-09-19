@@ -1,0 +1,16 @@
+runmode: debug            # 开发模式, debug, release, test
+addr: :8080
+name: go-dynamicKey
+pingMax: 10
+
+log:
+  level: 5
+  reportCaller: true
+
+redis:
+  Proto: tcp
+  Addr: 172.16.0.62:6379
+  Auth: 123456
+  MaxIdle: 100
+  MaxActive: 1000
+  IdleTimeout: 50
